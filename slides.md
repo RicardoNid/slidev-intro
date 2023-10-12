@@ -339,7 +339,7 @@ layout: 'two-cols-header'
 
 - 首先,我们将Notion页面导出为markdown文件
 
-![Untitled](/Untitled%201.png)
+![Untitled](/notion_export.png)
 
 ::right::
 
@@ -347,7 +347,7 @@ layout: 'two-cols-header'
     - 为入口markdown文件进行重命名(否则,在启动时我们需要输入一个复杂的entry名)
     - 将资源文件夹重命名为public
 
-![Untitled](/Untitled%202.png)
+![Untitled](/notion_download.png)
 
 ---
 
@@ -355,7 +355,7 @@ layout: 'two-cols-header'
 
 - 然后,在工程目录下启动Slidev并开始编辑内容,你可以在浏览器上实时看到修改结果
 
-<img src='/Untitled%203.png' class='h-95'>
+<img src='/editor.png' class='h-95'>
 
 ---
 
