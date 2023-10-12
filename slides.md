@@ -120,16 +120,10 @@ layout: 'cover'
     - 对于熟悉Web技术的开发者,他们可以通过Slidev渲染复杂的自定义布局
 
 ---
-
-## 基本内容要素
-
-- Slidev支持各种markdown基本要素,并为部分要素进行了增强
-
----
 layout: 'two-cols-header'
 ---
 
-# 代码块
+# 基本内容要素-代码块
 
 - Slidev为代码块额外提供了语法高亮(基于Prism|Shiki),选择性高亮和在线编辑(基于Monaco)功能
 - 在页面左侧,我们提供了一个分步高亮的代码块,右侧,我们提供了一个可现场编辑的代码块,两者都拥有正确的Scala语法高亮
@@ -191,7 +185,7 @@ case class FlopocoDiv(
 layout: 'two-cols-header'
 ---
 
-# 静态资源
+# 基本内容要素-静态资源
 
 ::left::
 
@@ -217,7 +211,7 @@ layout: 'two-cols-header'
 
 ---
 
-# 备注
+# 基本内容要素-备注
 
 - 每张slide的最后一个注释块将被视为备注,在演讲者视图中被展示
 
@@ -229,7 +223,7 @@ layout: 'two-cols-header'
 
 ---
 
-# 图标
+# 基本内容要素-图标
 
 - Slidev 允许你在Markdown中**直接**访问几乎所有的开源的图标集(基于[vite-plugin-icons](https://github.com/antfu/vite-plugin-icons)和[Iconify](https://iconify.design/))
 - 图标 ID 遵循 [Iconify](https://iconify.design/) 的命名规则 `{collection-name}-{icon-name}`,例如：
@@ -243,7 +237,7 @@ layout: 'two-cols-header'
 layout: two-cols-header
 ---
 
-# $\LaTeX$
+# 基本内容要素-$\LaTeX$
 
 - 与Notion一样,Slidev基于[KaTeX](https://katex.org/)实现了对于$\LaTeX$的支持
 - 内联格式: $\sqrt{3x-1}+(1+x)^2$
@@ -290,7 +284,7 @@ $$
 layout: two-cols-header
 ---
 
-# 图表
+# 基本内容要素-图表
 
 - 与Notion一样,Slidev基于[Mermaid](https://mermaid-js.github.io/mermaid)实现了对于内嵌图表的支持
 
@@ -330,7 +324,7 @@ layout: 'cover'
 
 # 生产内容
 
-- 日常的内容生产仍然在Notion上进行,不过,如果希望在未来将Notion页面转换为slides,应当注意以下事项
+- 日常的内容生产仍然在Notion上进行,不过,如果希望在未来将Notion页面转换为slides,应当注意以下事项:
     - 尽量在一个长页面上完成所有内容(而不是在多个子页面中),尽管Slidev支持从多个.md文件产生slides,这会增加转换工作量
     - 尽量在编写内容时就进行粗糙的分页,这可以通过插入`---`完成,你可以注意到,本页面中的水平线实际上就是分页符
     - 不要使用Notion database
