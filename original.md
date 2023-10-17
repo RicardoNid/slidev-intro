@@ -183,12 +183,18 @@ case class FlopocoDiv(
     - 使用 [SVG Logos](https://github.com/gilbarbara/logos)，其规则为 `<logos-vue />` - <logos-vue />
 
 ---
+layout: two-cols-header
+---
 
-### LaTex
+# LaTex
+
+::left::
 
 - 与Notion一样,Slidev基于[KaTeX](https://katex.org/)实现了对于$\LaTeX$的支持
 - 内联格式: $\sqrt{3x-1}+(1+x)^2$
 - 块格式:
+
+::right::
 
 $$
 \begin{array}{c}

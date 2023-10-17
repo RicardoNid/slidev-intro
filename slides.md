@@ -237,7 +237,7 @@ layout: 'two-cols-header'
 layout: two-cols-header
 ---
 
-# 基本内容要素-$\LaTeX$
+# 基本内容要素-LaTeX
 
 - 与Notion一样,Slidev基于[KaTeX](https://katex.org/)实现了对于$\LaTeX$的支持
 - 内联格式: $\sqrt{3x-1}+(1+x)^2$
